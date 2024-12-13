@@ -30,3 +30,18 @@ function nextSlide() {
 
 setInterval(nextSlide, 7000); 
 
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector(".formulario").addEventListener("submit", function(event) {
+        var nombre = document.getElementById("nombre").value;
+        var apellidos = document.getElementById("apellidos").value;
+        var correo = document.getElementById("correo").value;
+        var mensaje = document.getElementById("mensaje").value;
+
+        if (!nombre || !apellidos || !correo || !mensaje) {
+            alert("Todos los campos son obligatorios.");
+            event.preventDefault(); 
+        } else {
+            alert("Formulario enviado correctamente.");
+        }
+    });
+});
