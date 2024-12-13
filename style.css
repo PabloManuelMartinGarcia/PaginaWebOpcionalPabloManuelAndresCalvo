@@ -339,3 +339,165 @@ footer {
 .ich-container .social-icon img:hover {
     transform: scale(1.1); 
 }
+.news-section {
+    text-align: center;  
+    padding: 50px 20px;  
+    color: white;  
+}
+
+.news-title {
+    font-size: 70px;  
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.news-subtitle {
+    font-size: 30px;  
+    margin-top: 0;  
+}
+
+.platform-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px; 
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    padding-right: 15px; 
+    padding-left: 20px;  
+
+}
+.container {
+    margin-right: 50px; 
+    padding-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.platform-image {
+    width: 195px;
+    height: 183px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+.platform-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.platform-name {
+    width: 137.97px;
+    height: 39.9px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFB6C1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.platform-text {
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: bold;  
+    display: inline;   
+    white-space: normal; 
+    line-height: 1.5;
+}
+
+
+
+.platforms-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    padding-top: 20px;
+    margin-left: auto; 
+    margin-right: 400px; 
+    width: auto; 
+    max-width: 300px; 
+    gap: 20px;
+    padding: 20px;
+}
+
+ 
+
+.platform-name.platform-item-1 {
+    background-color: #FF8484;  
+  }
+  
+  .platform-name.platform-item-2 {
+    background-color: #2351F5; 
+  }
+  
+  .platform-name.platform-item-3 {
+    background-color: #FF7C32;  
+  }
+  
+  .platform-name.platform-item-4 {
+    background-color: #2351F5;  
+  }
+  
+  .platform-name.platform-item-5 {
+    background-color: #23A54F;  
+  }
+  
+  .platform-name.platform-item-6 {
+    background-color: #2351F5;  
+  }
+  
+  .platform-name.platform-item-7 {
+    background-color: #9921C3;  
+  }
+    .text {
+        font-size: 17px;
+        color: #fdfbfb;
+        margin: 5px 0;
+    }
+
+   
+    .second
+    {
+        color: orange;
+        display: inline-block;
+        margin: 0; 
+        padding: 0; 
+     }
+
+     .links
+     {
+        color: inherit; 
+        text-decoration: none;
+     }
+    
+    .imagen-principal {
+        width: 100%; 
+        max-width: auto;
+        margin-bottom: 20px;
+    }
+    
+    .texto-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .imagen-lateral {
+        width: 100px; 
+        max-width: 47px;
+        max-height: 47px;
+    }
+    
+    .texto-centrado {
+        font-size: 20px;
+    }
